@@ -17,7 +17,7 @@ d=dir(dataDir);
 % +Z up
 
 for iFile=3
-    fname=d(iFile).name;
+    fname=d(iFile).name; %what the hell is this
     if ~contains(fname,'c3d')
         continue
     end
